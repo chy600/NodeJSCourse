@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "Shu",
   "license": "MIT",
@@ -16,11 +16,13 @@
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
     "express-session": "^1.12.1",
+    "http": "0.0.0",
     "jade": "^1.11.0",
     "mongodb": "^2.0.52",
     "mssql": "^2.5.0",
     "passport": "^0.3.2",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "xml2js": "^0.4.15"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
